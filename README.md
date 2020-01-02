@@ -30,8 +30,11 @@ HealthCheck.
 * To check if the service is available and running use : http://localhost:8080/demo/health
     
 Installation.
-* Using docker : cd to the demo directory, and build the image using : "docker build -t demo .".
-To run in a docker container, use : "docker run -p 8080:8080 demo"
+* Using Docker : cd to the demo directory and :
+ * To build the image use : "docker build -t demo ."
+ * To run in a docker container, use : "docker run -p 8080:8080 demo"
 
-* Using gradle : cd to the the demo directory, and then to build use "./gradlew clean build".
-To run the Web App use "./gradlew bootRun"
+* Using Gradle : cd to the the demo directory and :
+ * To build use "./gradlew clean build".
+ * To run the Web App use "./gradlew bootRun"
+
