@@ -9,13 +9,13 @@ Usage
 
 API
 * API endpoint is : POST  http://localhost:8080/demo/api/v1/gmails/uniqueCount. 
-* JSON input payload is defined as :
+* JSON input payload ( example ) is defined as :
 {
   "emails": [
     "test1@gmail.com", "test1+@gmail.com"
   ]
 }
-* JSON response is defined as :
+* JSON response ( example ) is defined as :
 {
   "emailsCount": {
     "test1@gmail.com": 1
